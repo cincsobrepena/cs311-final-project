@@ -1,0 +1,130 @@
+:root {
+    --black: rgb(10, 10, 10);
+    --dark:rgb(15, 15, 15);
+    --light: rgb(230, 230, 230);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: var(--black);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav h1 {
+    color: white;
+}
+
+.dark-container {
+    background-color: var(--dark);
+}
+
+.light-container {
+    background-color: var(--light);
+}
+
+
+/* HEADER ELEMENTS STYLING*/
+.header-container {
+    background-color: var(--light);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center; 
+    padding: 0px 100px 0px;
+}
+
+.header-container img {
+    width: 50%;
+}
+
+.header-description {
+    width: 50%;
+}
+
+.header-description h2 {
+    font-size: 80px;
+    font-weight: bolder;
+    margin: 20px 0px;
+}
+
+.header-description p {
+    font-size: 30px
+}
+
+
+/* TIMELINE ELEMENTS STYLING*/
+.timeline-container {
+    padding: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+.timeline-container h2, .timeline-container p {
+    color: white;
+}
+
+.timeline-container h2{
+    font-size: 100px;
+}
+
+.timeline-card-group {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.timeline-card {
+    width: 20%;
+    margin: 10px;
+    /* padding: 30px; */
+    border: solid 3px white ;
+    border-radius: 20px;
+}
+
+.timeline-card b{
+    font-size: x-large;
+    padding: 15px;
+}
+
+.timeline-card p {
+    padding: 15px;
+}
+
+.portfolio-container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-container h2{
+    font-size: 100px;
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+}
+
+.project-group {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.logo-container{
+    width: 20%;
+}
+
+.language-logo {
+    width: 50%;
+}

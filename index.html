@@ -3,23 +3,29 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">
         <title>My Portfolio</title>
     </head>
     <body>
+        
+        <!-- Nav Bar -->
         <nav>
             <h1>CARL SOBREPEÑA</h1>
         </nav>
+
+        <!-- Header container -->
         <div class="header-container">
-            <img src="assets/img/profile-picture.png" alt="profile-picture.png">
             <div class="header-description">
                 <h2>Hi, I am Carl!</h2>
                 <p>A 23 years old third-year Computer Science student at CIIT College of Arts and Technology. I am an aspiring software engineer. I also explored the graphic design field to enhance my creativity skills and worked as a part-time graphic designer in a logo designing company.</p>
             </div>
+            <img src="assets/img/profile-picture.png" alt="profile-picture.png">
         </div>
 
-        <div class="light-container">
+        <!-- Timeline Container -->
+        <div class="dark-container timeline-container">
             <h2>TIMELINE</h2>
-            <div class="timeline-container">
+            <div class="timeline-card-group">
                 <div class="timeline-card">
                     <p><b>June 27, 2000</b></p>
                     <p>On this day I was born as the 2nd and last child in my family.</p>
@@ -32,9 +38,7 @@
                     <p><b>2012</b></p>
                     <p>Graduated from elementary school and attended junior high school at Center for Positive Futures Inc., Rodriguez, Rizal later that year.</p>
                 </div>
-            </div>
 
-            <div class="timeline-container">
                 <div class="timeline-card">
                     <p><b>2016</b></p>
                     <p>Graduated from junior high school and attended senior high school at Roosevelt College Inc. - Rodriguez Campus, Rodriguez, Rizal; later that year.</p>
@@ -47,9 +51,9 @@
                     <p><b>January 2020</b></p>
                     <p>I was able to bring back my passion for human beatbox. Joined and won a talent show competition at FEU Tech’s Fresh Night.</p>
                 </div>
-            </div>
 
-            <div class="timeline-container">
+
+
                 <div class="timeline-card">
                     <p><b>February 2020</b></p>
                     <p>After a month I joined and also earned first place in Fatal Rampage 2019, a beatbox battle competition.</p>
@@ -65,54 +69,57 @@
             </div>
         </div>
 
-        <div class="dark-container">
+        <!-- Portfolio Container -->
+        <div class="light-container portfolio-container">
             <h2>PORTFOLIO</h2>
-            <div class="portfolio-container">
+            <div class="project-container">
                 <div class="logo-container">
                     <img class="language-logo" src="assets/img/logo-c-sharp.png" alt="C#-logo.png">
                 </div>
-                <div class="project-container">
-                    <p><b>PANTRYY</b></p>
-                    <p>A pantry system application that helps users organize their groceries, household equipment, and other items at home conveniently.</p>
-                    <p><i>Created using DotNet; Runs in Windows</i></p>
-                </div>
-                <div class="project-container">
-                    <p><b>PLACEHOLDER</b></p>
-                    <p>A library system application that helps users borrow and return books digitally.</p>
-                    <p><i>Created using DotNet; Runs in Windows</i></p>
-                </div>
-                <div class="project-container">
-                    <p><b>SAFETY FRENZY</b></p>
-                    <p>It is a classic catcher game that promotes safety measures during the pandemic.</p>
-                    <p><i>Created using DotNet; Runs in Windows</i></p>
+                <div class="project-group">
+                    <div class="project-card">
+                        <p><b>PANTRYY</b></p>
+                        <p>A pantry system application that helps users organize their groceries, household equipment, and other items at home conveniently.</p>
+                        <p><i>Created using DotNet; Runs in Windows</i></p>
+                    </div>
+                    <div class="project-card">
+                        <p><b>PLACEHOLDER</b></p>
+                        <p>A library system application that helps users borrow and return books digitally.</p>
+                        <p><i>Created using DotNet; Runs in Windows</i></p>
+                    </div>
+                    <div class="project-card">
+                        <p><b>SAFETY FRENZY</b></p>
+                        <p>It is a classic catcher game that promotes safety measures during the pandemic.</p>
+                        <p><i>Created using DotNet; Runs in Windows</i></p>
+                    </div>
                 </div>
             </div>
 
-            <div class="portfolio-container">
+            <div class="project-container">
                 <div class="logo-container">
                     <img class="language-logo" src="assets/img/logo-html.png" alt="logo-html.png">
                     <img class="language-logo" src="assets/img/logo-css.png" alt="logo-css.png">
                     <img class="language-logo" src="assets/img/logo-javascript.png" alt="logo-javascript.png">
                 </div>
-                <div class="project-container">
+                <div class="project-card">
                     <p><b>POKÈDEX</b></p>
                     <p>An online Pokemon encyclopedia inspired by the famous TV show, Pokèmon. It is connected to PokèAPI. <a href="https://pokeapi.co/">(https://pokeapi.co/)</a></p>
                     <p><i>Created HTML, CSS, and Javascript</i></p>
                 </div>
             </div>
 
-            <div class="portfolio-container">
+            <div class="project-container">
                 <div class="logo-container">
                     <img class="language-logo" src="assets/img/logo-game-dev.png" alt="logo-game-dev.png">
                 </div>
-                <div class="project-container">
+                <div class="project-card">
                     <p><b>PAHIMAKAS - THE LAST FAREWELL (GAMEPITCH)</b></p>
                     <p>A strategy-rhythm game with characters, settings, and events inspired by Filipino Mythology and Tradition.</p>
                 </div>
             </div>
         </div>
 
-        <div class="light-container">
+        <div class="dark-container">
             <h2>HOBBIES | INTERESTS</h2>
             <div class="hobby-container">
                 <p><b>BEATBOXING</b></p>
@@ -127,7 +134,7 @@
             </div>
         </div>
 
-        <div class="dark-container">
+        <div class="light-container">
             <h2>CONTACT ME</h2>
             <p>
                 Got a question? I'd love to hear from you. Send me a message and we'll respond as soon as possible.
