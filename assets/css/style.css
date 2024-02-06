@@ -16,7 +16,10 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+    -webkit-box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.25);
+    box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.25);
+    }
 
 nav h1 {
     color: white;
@@ -90,7 +93,7 @@ nav h1 {
     border-radius: 20px;
 }
 
-.timeline-card b{
+.timeline-card b {
     font-size: x-large;
     padding: 15px;
 }
@@ -98,6 +101,8 @@ nav h1 {
 .timeline-card p {
     padding: 15px;
 }
+
+/* PORTFOLIO STYLING */
 
 .portfolio-container{
     display: flex;
@@ -107,12 +112,17 @@ nav h1 {
 }
 
 .portfolio-container h2{
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 100px;    
     font-size: 100px;
 }
 
 .project-container{
+    width: 80%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-flow: row nowrap;
 }
 
@@ -121,10 +131,115 @@ nav h1 {
     flex-flow: column nowrap;
 }
 
-.logo-container{
+.logo-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
     width: 20%;
+    margin: 20px;
 }
 
 .language-logo {
+    margin: 40px;
     width: 50%;
+}
+
+.project-card {
+    margin: 20px;
+    /* width: 20%; */
+    margin: 10px;
+    padding: 30px;
+    border: solid 4px var(--black) ;
+    border-radius: 20px;
+}
+
+/* HOBBIES ? INTERESTS */
+
+.interests-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.interests-container h2, .hobby-card b{
+    color: white;
+}
+
+.hobby-card b {
+    font-size: xx-large;
+}
+
+.interests-container h2 {
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 100px;    
+    font-size: 100px;
+}
+
+.hobby-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hobby-card {
+    width: 30%;
+    padding: 50px;
+    border: solid 5px white;
+    border-radius: 20px ;
+    margin: 20px;
+    text-align: center;
+}
+
+/* CONTACT ME STYLING */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 50px;
+}
+
+.contact-header {
+    margin: 40px;
+}
+
+.contact-container h2 {
+    margin-bottom: 30px;    
+    font-size:100px;
+}
+
+.contact-container p {
+    margin-bottom: 30px;    
+    font-size: xx-large;
+}
+
+.contact-container form {
+    margin: 50px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.contact-container form label {
+    margin-bottom: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.contact-container form input, .contact-container form select {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+#btn_send{
+    color: white;
+    background-color: var(--black);
+    margin: 30px;
+    align-self: center;
+    width: 20%;
 }
